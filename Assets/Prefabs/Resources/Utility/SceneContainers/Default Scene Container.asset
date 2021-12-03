@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d98442656cdb494594210850933fe14, type: 3}
   m_Name: Default Scene Container
   m_EditorClassIdentifier: 
-  Title: SC_SampleScene
+  Title: SC_TestingScene
   Scenes:
-  - SampleScene
+  - TestingScene
