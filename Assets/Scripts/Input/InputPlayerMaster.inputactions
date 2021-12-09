@@ -1,0 +1,74 @@
+{
+    "name": "InputPlayerMaster",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "40582a32-0f47-4f3f-b35f-8626fb85b061",
+            "actions": [
+                {
+                    "name": "VelocityPress",
+                    "type": "Button",
+                    "id": "f01a1027-f2d5-49f9-9774-c4fb37e68c7a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "VelocityHold",
+                    "type": "Button",
+                    "id": "459513d2-eaa8-425e-8b06-8858851aca89",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "VelocityRelease",
+                    "type": "Button",
+                    "id": "931c5290-4248-4e04-9828-3eb6d16f27c4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8fd1c5e4-d5bd-452b-8e3a-059e56478f2d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VelocityPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c847d822-9b90-405a-a474-44962f0a4415",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VelocityHold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c3284420-1418-4602-8142-03275185fd7c",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VelocityRelease",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
